@@ -7,7 +7,8 @@
 body {
           display: flex;
           justify-content: center;
-          background-color: #82667F;
+          /* background-color: #82667F; */
+          background-color: black;
           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .new{
