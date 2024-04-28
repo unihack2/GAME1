@@ -8,7 +8,7 @@ let colours = {
           5: "orange",
           6: "red"
 };
-let time = 1000;
+let time = 1100;
 function dance() {
           let p1 = Math.floor(Math.random() * 18);
           let p2 = Math.floor(Math.random() * 18);
@@ -37,7 +37,7 @@ let check = () => {
           let cl = document.querySelector(".new");
           cl.addEventListener("click", () => {
                     score++;
-                    time = time-20;
+                    time = time-8;
                      p.innerText = "Score = " + score;
                      bdy.removeChild(cl);
                      dance();
