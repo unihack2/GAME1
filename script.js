@@ -51,14 +51,14 @@ let check2 = () => {
           } else {
                     return 0;
           }
-}
+};
 slt.addEventListener("click",()=>{
           if(slt.value=="two") {
                     h3.style.color = "#82667F";
           }else {
                     h3.style.color = "black"; 
           }
-})
+});
 let st = document.getElementById("st");
 let rs = document.getElementById("rs");
 st.addEventListener("click", () => {
